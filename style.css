@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex: auto;
+  padding: 25px;
+  color: rgb(249, 250, 248);
+  background-color: rgb(33, 95, 150);
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 200px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(249, 250, 248);
+}
+.logo {
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.hero {
+  display: flex;
+  color: rgb(249, 250, 248);
+  padding: 25px 200px;
+  background-color: rgb(33, 95, 150);
+  gap: 100px;
+  justify-content: center;
+}
+.hero-text {
+  display: flex;
+  flex-flow: column wrap;
+  width: 450px;
+}
+/* .hero-text > * {
+  margin: 10px;
+} */
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero-text > p {
+  line-height: 2;
+}
+.hero-img {
+  height: 300px;
+  width: 600px;
+}
+button {
+  background-color: rgb(38, 97, 156);
+  border: 1px rgb(227, 195, 110) solid;
+  border-radius: 5px;
+  color: rgb(249, 250, 248);
+  width: fit-content;
+  padding: 8px;
+}
+.vitrine {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 25px 200px;
+}
+.catalogue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.vitrine > h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 32px;
+  font-style: italic;
+}
+.item > img {
+  width: 200px;
+  height: 200px;
+  border: 2px rgb(227, 195, 110) solid;
+  border-radius: 15px;
+}
+
+.item > p {
+  width: 200px;
+  height: 100px;
+  border: 2px #e3c36e solid;
+  border-radius: 15px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 100px 200px;
+  background-color: rgba(33, 95, 150, 0.1);
+}
+blockquote {
+  font-size: 26px;
+  line-height: 1.5;
+}
+figcaption {
+  align-self: flex-end;
+  background-color: rgb(227, 195, 110);
+}
+.call-to-action {
+  display: flex;
+  background-color: rgb(227, 195, 110);
+  color: rgb(38, 97, 156);
+  border-radius: 15px;
+  gap: 30px;
+  padding: 50px;
+  margin: 50px 200px 0 200px;
+}
+.call-to-action h2 {
+  text-shadow: 2px 5px 1px white;
+}
+.call-to-action button {
+  padding: 8px 20px;
+  align-self: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 97, 156);
+  color: rgb(249, 250, 248);
+  margin-top: 50px;
+  padding: 25px 200px;
+}

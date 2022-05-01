@@ -31,8 +31,19 @@ li {
 }
 
 a {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: rgb(249, 250, 248);
+}
+
+.underline {
+  height: 3px;
+}
+
+a:hover > .underline {
+  background-color: rgb(227, 195, 110);
+  transition: all 0.3s linear 0.1s;
 }
 .logo {
   font-size: 28px;
@@ -51,11 +62,10 @@ a {
 .hero-text {
   display: flex;
   flex-flow: column wrap;
+  justify-content: space-around;
   width: 450px;
 }
-/* .hero-text > * {
-  margin: 10px;
-} */
+
 h1 {
   font-size: 48px;
   font-weight: 900;
@@ -71,6 +81,7 @@ button {
   background-color: rgb(38, 97, 156);
   border: 1px rgb(227, 195, 110) solid;
   border-radius: 5px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
   color: rgb(249, 250, 248);
   width: fit-content;
   padding: 8px;
@@ -103,7 +114,10 @@ button {
 .item > p {
   width: 200px;
   height: 100px;
-  border: 2px #e3c36e solid;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 25px;
+  text-align: center;
   border-radius: 15px;
 }
 
@@ -122,6 +136,7 @@ blockquote {
 }
 figcaption {
   align-self: flex-end;
+  font-size: 22px;
   background-color: rgb(227, 195, 110);
 }
 .call-to-action {

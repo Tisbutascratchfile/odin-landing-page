@@ -149,7 +149,12 @@ figcaption {
   margin: 50px 200px 0 200px;
 }
 .call-to-action h2 {
-  text-shadow: 2px 5px 1px white;
+  text-shadow: 2px 5px 1px rgba(255, 255, 255, 0.3);
+}
+.call-to-action div > p {
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 70%;
 }
 .call-to-action button {
   padding: 8px 20px;
